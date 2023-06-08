@@ -7,11 +7,11 @@ var newdice2="dice"+random2+".png";
 var image2= document.querySelectorAll("img")[1];
 image2.setAttribute("src",newdice2);
 if(random1>random2){
-    document.querySelector("h1").innerHTML("🚩Player 1 win!");
+    document.querySelector("h1").innerHTML="🚩Player 1 win!";
 }
 else if(random2>random1){
-    document.querySelector("h1").innerHTML("Player 2 win! 🚩");
+    document.querySelector("h1").innerHTML="Player 2 win! 🚩";
 }
 else{
-    document.querySelector("h1").innerHTML("Draw!");
+    document.querySelector("h1").innerHTML="Draw!";
 }
